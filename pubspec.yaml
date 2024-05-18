@@ -1,0 +1,41 @@
+name: simple_tex
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.6.0
+  path_provider: ^2.1.1
+  provider: ^6.1.1
+  get: ^4.6.5
+  sqflite: ^2.0.2+1
+  sqflite_common_ffi: ^2.3.0+2
+  path: ^1.8.3
+  file_picker: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: RobotoMono
+      fonts:
+        - asset: lib/res/fonts/RobotoMono-VariableFont_wght.ttf
+
+  assets:
+    - lib/res/fonts/
+    - lib/res/images/
